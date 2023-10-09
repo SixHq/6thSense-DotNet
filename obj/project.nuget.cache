@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Def40ESuVu1cHTNXltYFBYmvEAKmCXxeGzbvJnsqwVBesdKatkCE/3zWYZ5eipaSDoT2jaRj5HxgjSMameenpg==",
+  "dgSpecHash": "Z8/z2zvIabFVdGPAM3Ll8eghnVyyiedGGkFS7cOw8srZsovwTwtr39fhN/cuQF6MArep/hiIdFJ2swQRXHcMHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Razer\\Documents\\6SenseMain\\6SenseMain.csproj",
+  "projectFilePath": "C:\\Users\\Razer\\Documents\\npc\\6thSense-DotNet\\6SenseMain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Razer\\.nuget\\packages\\aspnetcore.routeanalyzer\\0.5.3\\aspnetcore.routeanalyzer.0.5.3.nupkg.sha512",
     "C:\\Users\\Razer\\.nuget\\packages\\firesharp\\2.0.4\\firesharp.2.0.4.nupkg.sha512",

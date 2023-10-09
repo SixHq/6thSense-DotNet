@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Http;
 
 namespace Encryption
 {
-
     public static class Encryptio_Utilis
     {
         public static async Task PostOrderEncrypt(string publicKey, string key, dynamic data, dynamic copyText, string listKey = null)

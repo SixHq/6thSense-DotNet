@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Razer\\Documents\\6SenseMain\\6SenseMain.csproj": {}
+    "C:\\Users\\Razer\\Documents\\npc\\6thSense-DotNet\\6SenseMain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Razer\\Documents\\6SenseMain\\6SenseMain.csproj": {
+    "C:\\Users\\Razer\\Documents\\npc\\6thSense-DotNet\\6SenseMain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Razer\\Documents\\6SenseMain\\6SenseMain.csproj",
+        "projectUniqueName": "C:\\Users\\Razer\\Documents\\npc\\6thSense-DotNet\\6SenseMain.csproj",
         "projectName": "6SenseMain",
-        "projectPath": "C:\\Users\\Razer\\Documents\\6SenseMain\\6SenseMain.csproj",
+        "projectPath": "C:\\Users\\Razer\\Documents\\npc\\6thSense-DotNet\\6SenseMain.csproj",
         "packagesPath": "C:\\Users\\Razer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Razer\\Documents\\6SenseMain\\obj\\",
+        "outputPath": "C:\\Users\\Razer\\Documents\\npc\\6thSense-DotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Razer\\AppData\\Roaming\\NuGet\\NuGet.Config",

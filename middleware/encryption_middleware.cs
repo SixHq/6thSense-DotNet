@@ -9,12 +9,9 @@ using Microsoft.AspNetCore.Http;
 public class Encryption_Middleware
 {
     private readonly RequestDelegate _next;
-
-
     public Encryption_Middleware(RequestDelegate next)
     {
         _next = next;
-
     }
 
     public async Task Invoke(HttpContext httpContext)
@@ -133,7 +130,9 @@ public static class Encryption_MiddlewareExtensions
 {
     public static IApplicationBuilder UseEncryption_Middleware(this IApplicationBuilder builder)
     {
+        
         return builder.UseMiddleware<Encryption_Middleware>();
+
 
     }
 

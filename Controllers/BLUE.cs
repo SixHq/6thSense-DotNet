@@ -1,25 +1,26 @@
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace _6SenseMain.Controllers
 {
 
     [ApiController]
-    [Route("illl")]
-    public class WeatherForecastController : ControllerBase
+    [Route("api/path")]
+    public class ForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
         "Freezing" , "Bracing" , "Chilly" , "Cool" , "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<ForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public ForecastController(ILogger<ForecastController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet(Name = "WeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
@@ -32,7 +33,7 @@ namespace _6SenseMain.Controllers
         }
 
 
-        [HttpPost(Name = "SETWeatherForecast"),]
+        [HttpPost(Name = "WeatherForecast"),]
 
         public IEnumerable<WeatherForecast> Post()
         {
@@ -46,8 +47,8 @@ namespace _6SenseMain.Controllers
         }
 
 
-        [HttpDelete(Name = "GetWeatherForecast/green")]
-        public IEnumerable<WeatherForecast> Getb()
+        [HttpDelete(Name = "WeatherForecast")]
+        public IEnumerable<WeatherForecast> Delete()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
@@ -63,4 +64,6 @@ namespace _6SenseMain.Controllers
 
 
     }
+
+    
 }
